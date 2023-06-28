@@ -1,0 +1,4 @@
+baseURL = 'https://sebastianmarines.github.io/'
+languageCode = 'en-us'
+title = 'Sebastian Marines'
+theme = 'holy'

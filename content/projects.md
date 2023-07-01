@@ -2,7 +2,6 @@
 title: "Projects"
 date: 2023-06-28T15:47:12-06:00
 draft: true
-menu: "main"
 ---
 
 ## [GoLisp](https://github.com/sebastianmarines/golisp)

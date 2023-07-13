@@ -10,3 +10,6 @@ identifier = "projects"
 name = "Projects"
 url = "/projects/"
 weight = 10
+
+[outputs]
+home = ["HTML", "RSS"]

@@ -6,12 +6,15 @@ author:
   email: hi@sebastianmarines.com
 params:
   social:
-    linkedin:
-      url: https://www.linkedin.com/in/sebastianmarines/
-      icon: fab fa-linkedin
+    devto:
+      url: https://dev.to/sebastianmarines
+      icon: fab fa-dev
     github:
       url: https://github.com/sebastianmarines
       icon: fab fa-github
+    linkedin:
+      url: https://www.linkedin.com/in/sebastianmarines/
+      icon: fab fa-linkedin
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 sitemap:

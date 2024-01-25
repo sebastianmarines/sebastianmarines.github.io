@@ -41,7 +41,7 @@ languages:
     disabled: false
     languageCode: es
     languageDirection: ltr
-    languageName: Spanish
+    languageName: Español
     weight: 2
     menu:
       main:

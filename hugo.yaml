@@ -6,6 +6,10 @@ author:
   email: hi@sebastianmarines.com
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
+sitemap:
+  changeFreq: ""
+  filename: sitemap.xml
+  priority: -1
 languages:
   en:
     disabled: false

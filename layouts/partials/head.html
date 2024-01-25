@@ -8,6 +8,15 @@
 
   <title>{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ site.Title }}</title>
 
+  {{ if .Site.IsMultiLingual }} {{ range .Site.Languages }} {{ if eq .
+  $.Site.Language }} {{ else }} {{ range $.Translations }}
+  <link
+    rel="alternate"
+    hreflang="{{ .Language.Lang }}"
+    href="{{ .Permalink }}"
+  />
+  {{ end }} {{ end }} {{end}} {{ end }}
+
   <!-- Meta -->
   {{ if eq .Kind "page" }}
   <meta name="description" property="og:description" content="{{ .Summary }}" />

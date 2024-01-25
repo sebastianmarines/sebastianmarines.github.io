@@ -9,12 +9,15 @@ params:
     devto:
       url: https://dev.to/sebastianmarines
       icon: fab fa-dev
+      name: Dev.to
     github:
       url: https://github.com/sebastianmarines
       icon: fab fa-github
+      name: GitHub
     linkedin:
       url: https://www.linkedin.com/in/sebastianmarines/
       icon: fab fa-linkedin
+      name: LinkedIn
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 sitemap:

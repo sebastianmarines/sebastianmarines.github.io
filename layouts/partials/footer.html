@@ -9,7 +9,13 @@
   <!-- Centered social links -->
   <div class="flex justify-center mt:16">
     {{- range $index, $social := .Site.Params.social -}}
-    <a class="mx:8" href="{{ $social.url }}" target="_blank" rel="noopener">
+    <a
+      class="mx:8"
+      href="{{ $social.url }}"
+      target="_blank"
+      rel="noopener"
+      aria-label="{{ $social.name }}"
+    >
       <span class="{{ $social.icon }}"></span>
     </a>
     {{- end -}}

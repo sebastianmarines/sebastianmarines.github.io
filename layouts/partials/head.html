@@ -8,6 +8,8 @@
 
   <title>{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ site.Title }}</title>
 
+  <meta http-equiv="content-language" content="{{ .Site.Language.Lang }}" />
+
   {{ if .Site.IsMultiLingual }} {{ range .Site.Languages }} {{ if eq .
   $.Site.Language }} {{ else }} {{ range $.Translations }}
   <link

@@ -15,9 +15,9 @@ languages:
     weight: 1
     menu:
       main:
-        - identifier: projects
-          name: Projects
-          url: /projects/
+        - identifier: about
+          name: About
+          url: /about/
           weight: 10
     params:
       description: "Sebastian Marines' personal website."
@@ -29,9 +29,9 @@ languages:
     weight: 2
     menu:
       main:
-        - identifier: projects
-          name: Proyectos
-          url: /projects/
+        - identifier: about
+          name: Acerca de
+          url: /about/
           weight: 10
     params:
       description: "Sitio web personal de Sebastian Marines."

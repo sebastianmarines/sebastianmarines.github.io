@@ -30,7 +30,7 @@
                 font:fade
                 font:fade-10:hover
                 font:fade-30.active
-                px:8
+                px:4
                 transition:150ms;ease-in
                 {{ $active }}
             " href="{{ .URL | relLangURL}}" title="{{ .Title }}">
@@ -39,7 +39,7 @@
             {{ end }}
                             
             {{ if .Site.IsMultiLingual }}
-                <div class="dropdown">
+                <div class="dropdown px:4">
                     <button class="
                         dropbtn
                         font:semibold

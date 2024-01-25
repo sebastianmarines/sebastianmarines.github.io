@@ -1,6 +1,7 @@
 ---
 title: "Entendiendo los descriptores de archivos de Linux: Profundizando en '2>&1' y la redirección"
 date: 2024-01-22T11:50:00-06:00
+summary: "En este post, aprenderemos qué son los descriptores de archivos, cómo funcionan y cómo implementar redirecciones desde cero."
 ---
 
 Probablemente hayas visto esta sintaxis antes:

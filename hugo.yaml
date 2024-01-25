@@ -1,0 +1,41 @@
+baseURL: "https://sebastianmarines.com/"
+title: Sebastian Marines
+theme: holy
+author:
+  name: Sebastian Marines
+  email: hi@sebastianmarines.com
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+languages:
+  en:
+    disabled: false
+    languageCode: en
+    languageDirection: ltr
+    languageName: English
+    weight: 1
+    menu:
+      main:
+        - identifier: projects
+          name: Projects
+          url: /projects/
+          weight: 10
+    params:
+      description: "Sebastian Marines' personal website."
+  es:
+    disabled: false
+    languageCode: es
+    languageDirection: ltr
+    languageName: Spanish
+    weight: 2
+    menu:
+      main:
+        - identifier: projects
+          name: Proyectos
+          url: /projects/
+          weight: 10
+    params:
+      description: "Sitio web personal de Sebastian Marines."
+outputs:
+  home:
+    - HTML
+    - RSS

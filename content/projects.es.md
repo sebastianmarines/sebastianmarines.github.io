@@ -1,6 +1,7 @@
 ---
 title: "Proyectos"
 date: 2023-06-28T15:47:12-06:00
+summary: "Proyectos personales y de código abierto"
 ---
 
 ## [GoLisp](https://github.com/sebastianmarines/golisp)

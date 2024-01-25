@@ -4,6 +4,14 @@ theme: holy
 author:
   name: Sebastian Marines
   email: hi@sebastianmarines.com
+params:
+  social:
+    linkedin:
+      url: https://www.linkedin.com/in/sebastianmarines/
+      icon: fab fa-linkedin
+    github:
+      url: https://github.com/sebastianmarines
+      icon: fab fa-github
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 sitemap:

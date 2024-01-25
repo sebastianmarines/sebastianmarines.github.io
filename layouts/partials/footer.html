@@ -1,4 +1,17 @@
 <footer class="py:24">
-    <div class="f:fade-30 f:14 mb:8">{{ .Site.Params.copyright }}</div>
-    <div class="f:fade-60 f:12">{{ i18n "theme" }} <a class="f:bold" href="https://github.com/serkodev/holy" _target="_blank">Holy</a></div>
+  <div class="f:fade-30 f:14 mb:8">{{ .Site.Params.copyright }}</div>
+  <div class="f:fade-60 f:12">
+    {{ i18n "theme" }}
+    <a class="f:bold" href="https://github.com/serkodev/holy" _target="_blank"
+      >Holy</a
+    >
+  </div>
+  <!-- Centered social links -->
+  <div class="flex justify-center mt:16">
+    {{- range $index, $social := .Site.Params.social -}}
+    <a class="mx:8" href="{{ $social.url }}" target="_blank" rel="noopener">
+      <span class="{{ $social.icon }}"></span>
+    </a>
+    {{- end -}}
+  </div>
 </footer>

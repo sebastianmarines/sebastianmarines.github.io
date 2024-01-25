@@ -1,0 +1,25 @@
+.dropbtn {
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 5px 0;
+  text-decoration: none;
+  display: block;
+  width: max-content;
+}
+                
+.dropdown:hover .dropdown-content {
+  display: block;
+}

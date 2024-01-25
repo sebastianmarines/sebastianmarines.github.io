@@ -46,7 +46,7 @@ I created a web server in Go, including the ability to handle HTTP requests and 
 
 Technologies used: Go
 
-### [UbicaTec](github.com/sebastianmarines/ubicatec)
+### [UbicaTec](https://github.com/sebastianmarines/ubicatec)
 
 I developed a personal project called Ubicatec, an IoT solution tracking the approximate number of students in a campus location. The project involved designing and building hardware components, such as sensors and microcontrollers, and developing software to collect and analyze data from the sensors. I also implemented a web-based dashboard for displaying the data in real time.
 

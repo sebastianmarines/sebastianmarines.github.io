@@ -50,7 +50,7 @@ Creé un servidor web en Go, que incluye la capacidad para manejar peticiones y 
 
 Tecnologías utilizadas: Go
 
-### [UbicaTec](github.com/sebastianmarines/ubicatec)
+### [UbicaTec](https://github.com/sebastianmarines/ubicatec)
 
 Desarrollé un proyecto personal llamado UbicaTec, una solución IoT para rastrear el número aproximado de estudiantes en una localización del campus. El proyecto involucró diseñar y construir componentes de hardware, tales como sensores y microcontroladores, y desarrollar software para recolectar y analizar datos de los sensores. También implementé un tablero basado en la web para mostrar los datos en tiempo real.
 

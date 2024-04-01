@@ -2,6 +2,7 @@
 title: "Understanding Linux's File Descriptors: A Deep Dive Into '2>&1' and Redirection"
 date: 2024-01-22T11:50:00-06:00
 summary: "In this post, we will learn what file descriptors are, how they work, and how to implement redirections from scratch."
+tags: ["linux", "c", "bash"]
 ---
 
 You have probably seen this syntax before:

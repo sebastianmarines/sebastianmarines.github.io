@@ -2,6 +2,7 @@
 title: "Deploying Go to AWS Lambda with GitHub Actions and Terraform"
 date: 2023-07-12T18:39:05-06:00
 summary: "In this article, we will explore how to deploy Go-based applications to AWS Lambda using the seamless integration of GitHub Actions and Terraform."
+tags: ["Go", "AWS", "Lambda", "GitHub", "Terraform"]
 ---
 
 ## Introduction

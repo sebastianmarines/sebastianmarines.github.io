@@ -9,6 +9,16 @@
       <time>{{ .Lastmod | time.Format (":date_medium") }}</time>
       {{ end }} {{- end -}}
     </div>
+    <div class="mt:10">
+      {{ with .Param "tags" }} {{ range $index, $tag := (. | sort) }} {{ with
+      $.Site.GetPage (printf "/%s/%s" "tags" $tag) }}
+      <a
+        href="{{ .Permalink }}"
+        class="bg:fade-60 shadow:sm color:white-80 px:8 py:4 text-decoration:none r:20 m:5 font-weight:600 f:fade-80 display:inline-block"
+        >#{{ $tag | urlize }}</a
+      >
+      {{ end }} {{ end }} {{ end }}
+    </div>
   </header>
   {{- partial "prose.html" . -}}
 </article>

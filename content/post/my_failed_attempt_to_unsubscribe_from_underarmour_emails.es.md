@@ -22,7 +22,7 @@ Estaba satisfecho con esta solución ya que ya no veía esos correos electrónic
 
 ## Investigando el enlace de cancelar suscripción roto
 
-Siendo un estudiante curioso y molesto por esto, mi única opción era investigar y detener esos correos electrónicos de llegar.
+Siendo un estudiante curioso y molesto por esto, mi única opción era investigar y hacer que estos correos electrónicos dejaran de llegar.
 
 El botón de cancelar suscripción en el correo electrónico te lleva a _trk.e.underarmour.com_ pero responde con un código 302 y redirige a _pages.e.underarmour.com_, así que sigamos.
 
@@ -30,7 +30,7 @@ La siguiente URL para probar es _pages.e.underarmour.com_, y a primera vista, pa
 
 ![](/my_failed_attempt_to_unsubscribe_from_underarmour_emails/cant_connect.jpeg)
 
-Inicialmente, pensé que podría tener algo que ver con mi PiHole ya que a veces rompe algunas páginas, pero incluso con PiHole desactivado no pude acceder a la página que supuestamente me permitiría cancelar la suscripción.
+Inicialmente, pensé que podría tener algo que ver con mi [PiHole](https://pi-hole.net/) ya que a veces rompe algunas páginas, pero incluso con PiHole desactivado no pude acceder a la página que supuestamente me permitiría cancelar la suscripción.
 
 ## El registro faltante
 
@@ -42,19 +42,19 @@ Entonces, ¿ahora qué? Parecía un callejón sin salida, pero había una últim
 
 ## Buscando todos los subdominios de underarmour.com
 
-Afortunadamente, hay sitios web que ya realizan un seguimiento de dominios como [este](https://subdomains.whoisxmlapi.com/). El único problema es que hay 344 subdominios para _underarmour.com_.
+Afortunadamente, hay sitios web, como [este](https://subdomains.whoisxmlapi.com/), que realizan un seguimiento de dominios . El único problema es que hay 344 subdominios para _underarmour.com_.
 
 Intenté con los que incluían la palabra email o alguna variante, y después de probar solo 3 subdominios, me topé con uno que parecía prometedor: _pages.emails.underarmour.com_.
 
-Luego, reemplacé _pages.**e**.underarmour.com_ (el enlace al que el botón de cancelar suscripción envió) con _pages.**email**.underarmour.com_, manteniendo la ruta de la URL.
+Luego, reemplacé _pages.**e**.underarmour.com_ (el enlace al que te envia el botón de cancelar suscripción) con _pages.**email**.underarmour.com_, manteniendo la ruta de la URL.
 
-Et voilà, finalmente pude cancelar la suscripción a los correos electrónicos de UnderArmour. ¿O pude?
+Et voilà, finalmente pude cancelar la suscripción a los correos electrónicos de UnderArmour. O no...
 
 ![Página de cancelar suscripción de UnderArmour](/my_failed_attempt_to_unsubscribe_from_underarmour_emails/cancel.png)
 
 ## Concluyendo
 
-Quiero darle a UnderArmour el beneficio de la duda y pensar que simplemente cometieron un error y fueron redirigidos al subdominio incorrecto, pero parece que hay otras personas con este problema. He seguido recibiendo correos electrónicos promocionales a pesar de haber enviado el formulario para cancelar la suscripción varias veces.
+Quiero darle a UnderArmour el beneficio de la duda y pensar que simplemente cometieron un error y me redirigieron al subdominio incorrecto, pero parece que hay otras personas con este problema. He seguido recibiendo correos electrónicos promocionales a pesar de haber enviado el formulario para cancelar la suscripción varias veces.
 
 Cada vez más empresas están adoptando este tipo de tácticas para retener usuarios, pero ¿con qué propósito? Después de esta experiencia, nunca querría comprar algo de ellos; de hecho, trataría de disuadir a cualquier persona de hacerlo.
 

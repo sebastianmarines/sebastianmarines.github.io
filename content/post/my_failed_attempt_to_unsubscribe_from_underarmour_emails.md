@@ -30,7 +30,7 @@ The next URL to test is _pages.e.underarmour.com_, and at first glance, it seems
 
 ![](/my_failed_attempt_to_unsubscribe_from_underarmour_emails/cant_connect.jpeg)
 
-Initially, I thought it might have something to do with my PiHole since it sometimes breaks some pages, but even with PiHole deactivated I couldn’t access the page that would supposedly let me unsubscribe.
+Initially, I thought it might have something to do with my [PiHole](https://pi-hole.net/) since it sometimes breaks some pages, but even with PiHole deactivated I couldn’t access the page that would supposedly let me unsubscribe.
 
 ## The missing record
 
@@ -48,7 +48,7 @@ I tried the ones that included the word email or some variant of it, and after t
 
 Then, I replaced _pages.**e**.underarmour.com_ (the link that the unsubscribe button sent to) with _pages.**email**.underarmour.com_, keeping the path of the URL.
 
-Et voilà, I could finally unsubscribe from UnderArmour emails. Or could I?
+Et voilà, I could finally unsubscribe from UnderArmour emails. Or not…
 
 ![UnderArmour Unsubscribe Page](/my_failed_attempt_to_unsubscribe_from_underarmour_emails/cancel.png)
 

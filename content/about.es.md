@@ -25,6 +25,7 @@ Actualmente trabajo en [Atrato](https:/atratopago.com) como Cloud Engineer, dond
 
 - [AWS Certified Solutions Architect - Associate](https://www.credly.com/badges/7f688363-88ff-42f4-9699-d33af0dd85fb/public_url)
 - [AWS Certified Developer - Associate](https://www.credly.com/badges/9ba50f0c-74a4-4eea-8bec-8a8dbfd95e3d/public_url)
+- [AWS Certified SysOps Administrator - Associate](https://www.credly.com/badges/90474635-de8c-47f4-8e4d-848311cbe6f8/public_url)
 - [AWS Certified Cloud Practitioner](https://www.credly.com/badges/ee9166c9-7fbc-4fab-be8c-5343c04beedf/public_url)
 - [Terraform Associate](https://www.credly.com/badges/ebda05b7-afcf-45d3-b341-66d1e32a5d95/public_url)
 

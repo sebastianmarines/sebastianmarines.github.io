@@ -2,6 +2,9 @@
 title: "My (failed) attempt to unsubscribe from UnderArmour emails"
 date: 2022-02-08T11:50:00-06:00
 summary: "I started getting promotional emails from UnderArmour in my personal email address, even though I never bought anything from them nor subscribed to any promotional newsletter. I tried to unsubscribe, but the link was broken. This is my story."
+author: "Sebastian Marines"
+categories: [" "]
+tags: [" "]
 ---
 
 About 6 months ago, I started getting promotional emails from UnderArmour in my personal email address, even though I never bought anything from them nor subscribed to any promotional newsletter.

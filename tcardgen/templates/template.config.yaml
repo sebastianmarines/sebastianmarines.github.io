@@ -1,0 +1,41 @@
+template: example/template.png
+title:
+  start:
+    px: 123
+    py: 165
+  fgHexColor: "#000000"
+  fontSize: 55
+  fontStyle: Bold
+  maxWidth: 946
+  lineSpacing: 10
+category:
+  start:
+    px: 126
+    py: 119
+  fgHexColor: "#8D8D8D"
+  fontSize: 42
+  fontStyle: Regular
+info:
+  start:
+    px: 235
+    py: 441
+  fgHexColor: "#8D8D8D"
+  fontSize: 32
+  fontStyle: Regular
+  separator: "・"
+  timeFormat: "Jan 2"
+tags:
+  start:
+    px: 1055
+    py: 487
+  fgHexColor: "#FFFFFF"
+  bgHexColor: "#60BCE0"
+  fontSize: 22
+  fontStyle: Medium
+  boxAlign: Right
+  boxSpacing: 6
+  boxPadding:
+    top: 6
+    right: 10
+    bottom: 6
+    left: 10

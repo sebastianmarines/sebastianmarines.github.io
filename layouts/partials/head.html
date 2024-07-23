@@ -28,6 +28,8 @@
   />
   <meta name="title" property="og:title" content="{{ .Title }}" />
   <meta name="publish_date" property="og:publish_date" content="{{ .Date }}" />
+  <meta property="og:image" content="{{ if .Params.thumbnail -}}{{ .Params.thumbnail|absURL }}{{ else if hasPrefix .File.Path "post" -}}{{ path.Join "tcard" (print .File.BaseFileName ".png") | absURL }}{{ else -}}{{ "img/default.png" | absURL }}{{ end -}}" />
+  <meta name="twitter:card" content="summary_large_image" />
   {{ else }}
   <meta name="description" content="{{ site.Params.description }}" />
   <meta name="author" content="{{ site.Author.name }}" />

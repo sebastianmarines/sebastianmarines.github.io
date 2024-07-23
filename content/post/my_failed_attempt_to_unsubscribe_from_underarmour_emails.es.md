@@ -2,6 +2,9 @@
 title: "Mi intento (fallido) de cancelar la suscripción a los correos electrónicos de UnderArmour"
 date: 2022-02-08T11:50:00-06:00
 summary: "Comencé a recibir correos electrónicos promocionales de UnderArmour en mi dirección de correo electrónico personal, a pesar de que nunca compré nada de ellos ni me suscribí a ningún boletín promocional. Intenté cancelar la suscripción, pero el enlace no funcionaba. Esta es mi historia"
+author: "Sebastian Marines"
+categories: [" "]
+tags: [" "]
 ---
 
 Hace aproximadamente 6 meses, comencé a recibir correos electrónicos promocionales de UnderArmour en mi dirección de correo electrónico personal, a pesar de que nunca compré nada de ellos ni me suscribí a ningún boletín promocional.

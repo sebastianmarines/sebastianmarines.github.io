@@ -27,7 +27,7 @@ info:
 tags:
   start:
     px: 1055
-    py: 487
+    py: 500
   fgHexColor: "#FFFFFF"
   bgHexColor: "#60BCE0"
   fontSize: 22

@@ -9,7 +9,8 @@ I'm currently working at [Atrato](https:/atratopago.com) as a Cloud Engineer, wh
 
 ## Experience
 
-- Cloud Engineer at [Atrato](https://atratopago.com) (Oct 2023 - present)
+- Platform Engineering Intern at [Meta](https://www.meta.com/) (Jun 2024 - Sept 2024)
+- Cloud Engineer at [Atrato](https://atratopago.com) (Oct 2023 - Jun 2024)
 - DevOps Engineer at [PointPredictive](https://pointpredictive.com) (Oct 2022 - Oct 2023)
 - DevOps Engineer at [ClickIT: DevOps & Software Development](https://clickittech.com) (Jul 2022 - Oct 2023)
 - DevOps Intern at [ClickIT: DevOps & Software Development](https://clickittech.com) (May 2021 - Jun 2022)

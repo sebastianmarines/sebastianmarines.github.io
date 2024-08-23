@@ -112,6 +112,7 @@ The ICMP standard[^2] defines several message types. The most common ones are:
 - **Parameter Problem Message**: Sent by a router when a packet has an incorrect header.
 - **Source Quench Message**: Sent by a router to inform a computer that it is sending too many packets.
 
+> `traceroute` sends *Echo Request* messages with increasing TTL values and listens for *Time Exceeded Messages* to determine the path that a packet takes from the source to the destination.
 
 ## Visualizing `traceroute`
 

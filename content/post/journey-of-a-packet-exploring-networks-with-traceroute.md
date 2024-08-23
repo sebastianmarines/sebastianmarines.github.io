@@ -61,7 +61,8 @@ PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
 This is where `traceroute` comes in handy. `traceroute` is a network diagnostic tool that shows the path that a packet takes from the source to the destination. It allows us to see every router in the path and the response time of each one.
 
 ```bash
-$ traceroute to 10.0.0.2 (10.0.0.2), 30 hops max, 60 byte packets
+$ traceroute 10.0.0.2
+traceroute to 10.0.0.2 (10.0.0.2), 30 hops max, 60 byte packets
  1  10.1.0.5  1.123 ms  0.912 ms  1.145 ms
  2  10.1.0.6  2.145 ms  2.023 ms  2.311 ms
  3  * * *
@@ -127,8 +128,8 @@ First, `traceroute` sends an ICMP packet with a TTL of 1. The packet reaches the
 ![Ping with a TTL of 1](/traceroute/ping-ttl-1.svg)
 
 ```bash
-$ traceroute
-traceroute to 10.0.0.1 (10.0.0.1), 64 hops max, 40 byte packets
+$ traceroute 10.0.0.2
+traceroute to 10.0.0.2 (10.0.0.2), 64 hops max, 40 byte packets
  1 10.1.0.5 (10.1.0.5)  1.123 ms  0.912 ms  1.145 ms
 ...
 ```
@@ -142,8 +143,8 @@ The packet reaches the second router in the path, which decrements the TTL field
 ![Ping with a TTL of 2](/traceroute/ping-ttl-2.svg)
 
 ```bash
-$ traceroute
-traceroute to 10.0.0.1 (10.0.0.1), 64 hops max, 40 byte packets
+$ traceroute 10.0.0.2
+traceroute to 10.0.0.2 (10.0.0.2), 64 hops max, 40 byte packets
  1 10.1.0.5 (10.1.0.5)  1.123 ms  0.912 ms  1.145 ms
  2 10.1.0.6 (10.1.0.6)  2.145 ms  2.023 ms  2.311 ms
 ...
@@ -156,8 +157,8 @@ When the packet reaches the last router in the path, the router decrements the T
 ![Ping with a TTL of 3](/traceroute/ping-ttl-3.svg)
 
 ```bash
-$ traceroute
-traceroute to 10.0.0.1 (10.0.0.1), 64 hops max, 40 byte packets
+$ traceroute 10.0.0.2
+traceroute to 10.0.0.2 (10.0.0.2), 64 hops max, 40 byte packets
  1 10.1.0.5 (10.1.0.5)  1.123 ms  0.912 ms  1.145 ms
  2 10.1.0.6 (10.1.0.6)  2.145 ms  2.023 ms  2.311 ms
  3 10.1.0.7 (10.1.0.7)  3.145 ms  3.023 ms  3.311 ms
@@ -171,8 +172,8 @@ The destination computer receives the packet and sends an *ICMP Echo Reply* back
 ![Ping with a TTL of 4](/traceroute/ping-ttl-4.svg)
 
 ```bash
-$ traceroute
-traceroute to 10.0.0.1 (10.0.0.1), 64 hops max, 40 byte packets
+$ traceroute 10.0.0.2
+traceroute to 10.0.0.2 (10.0.0.2), 64 hops max, 40 byte packets
  1 10.1.0.5 (10.1.0.5)  1.123 ms  0.912 ms  1.145 ms
  2 10.1.0.6 (10.1.0.6)  2.145 ms  2.023 ms  2.311 ms
  3 10.1.0.7 (10.1.0.7)  3.145 ms  3.023 ms  3.311 ms

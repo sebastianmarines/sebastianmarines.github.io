@@ -10,7 +10,7 @@
 
   <meta http-equiv="content-language" content="{{ .Site.Language.Lang }}" />
 
-  {{ if .Site.IsMultiLingual }} {{ range .Site.Languages }} {{ if eq .
+  {{ if gt (len .Site.Languages) 1 }} {{ range .Site.Languages }} {{ if eq .
   $.Site.Language }} {{ else }} {{ range $.Translations }}
   <link
     rel="alternate"
@@ -24,7 +24,7 @@
   <meta name="description" property="og:description" content="{{ .Summary }}" />
   <meta
     name="author"
-    content="{{ .Params.Author | default site.Author.name }}"
+    content="{{ .Params.Author | default site.Params.author.name }}"
   />
   <meta name="title" property="og:title" content="{{ .Title }}" />
   <meta name="publish_date" property="og:publish_date" content="{{ .Date }}" />
@@ -35,7 +35,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   {{ else }}
   <meta name="description" content="{{ site.Params.description }}" />
-  <meta name="author" content="{{ site.Author.name }}" />
+  <meta name="author" content="{{ site.Params.author.name }}" />
   {{ end }}
 
   <link rel="stylesheet" href="/my_styles.css" />

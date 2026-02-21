@@ -41,7 +41,7 @@
             </a>
             {{ end }}
                             
-            {{ if .Site.IsMultiLingual }}
+            {{ if gt (len .Site.Languages) 1 }}
                 <div class="dropdown padding-left:8">
                     <button class="
                         dropbtn

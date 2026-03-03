@@ -7,9 +7,5 @@
   {{- range where site.RegularPages "Type" "in" site.Params.mainSections -}} {{-
   partial "li.html" ( dict "url" .Permalink "title" .Title "subTitle" (.Date |
   time.Format (":date_medium")) ) -}} {{- end -}}
-
-  <h1 class="my:1em">{{ i18n "network" | default "Network" }}</h1>
-
-  {{- partial "li.html" ( dict "url" "https://as200426.sebastianmarines.com" "title" "AS200426" "subTitle" "My autonomous system" ) -}}
 </div>
 {{ end }}

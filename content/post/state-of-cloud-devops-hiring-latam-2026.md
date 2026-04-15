@@ -8,7 +8,7 @@ tags: ["data", "cloud", "devops", "career", "latam", "aws", "azure", "gcp"]
 draft: true
 ---
 
-I have been building a job board focused on cloud and DevOps roles in Latin America. As part of that effort, I wrote scrapers for four major job boards (Glassdoor, Workable, LinkedIn, and Greenhouse), collected thousands of listings across LATAM countries and enriched them with AI to classify roles, extract salaries, detect agencies, identify certifications, and normalize locations, skills, and seniority.
+I have been building a job board focused on cloud and DevOps roles in Latin America. As part of that effort, I wrote scrapers for four major job boards (Glassdoor, Workable, LinkedIn, and Greenhouse), collected thousands of listings across LATAM countries and extracted salaries, certifications, locations, skills, and seniority.
 
 This post is a summary of what the data looks like as of April 2026.
 

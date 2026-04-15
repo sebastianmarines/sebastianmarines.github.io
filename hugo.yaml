@@ -5,6 +5,10 @@ params:
   author:
     name: Sebastian Marines
     email: hi@sebastianmarines.com
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 sitemap:

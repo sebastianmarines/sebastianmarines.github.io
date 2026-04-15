@@ -1,0 +1,11 @@
+{{/* Load Chart.js once per page, then render a canvas + inline script */}}
+{{ if not (.Page.Scratch.Get "chartjs-loaded") }}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+{{ .Page.Scratch.Set "chartjs-loaded" true }}
+{{ end }}
+<div style="position:relative; width:100%; max-width:{{ .Get "width" | default "700px" }}; margin: 1.5rem auto;">
+  <canvas id="{{ .Get "id" }}"></canvas>
+</div>
+<script>
+{{ .Inner | safeJS }}
+</script>
